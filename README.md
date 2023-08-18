@@ -35,3 +35,18 @@ Ingredientes para o almoço:
   3. Lustrar o piano
   
   ![Cachorrinho](https://pipz.com/static/images/blog/eddie.png)
+
+Este é um método`console.log()`do javascript.
+
+```javascript
+function selecionaElemnto() {
+const body = document.
+querySelector('body'); 
+}
+``` 
+
+Frutas | Doces | Salgados
+:-------:|:-------:|:---------:
+Banana | Chocolate | coxinha
+Maçã | bala juquinha | esfiha
+Uva | bombom| tapioca
