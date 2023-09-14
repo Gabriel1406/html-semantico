@@ -13,6 +13,10 @@ p {
     color: #D6E8DB;
     padding: 20px;
     border-radius: 20px;
+    margin-bottom: 0;
+}
+ .paragrafo-de-artigo ~ .paragrafo-de-artigo{
+padding-top: 0 ;
 }
 
 .titulo-da-pagina {
