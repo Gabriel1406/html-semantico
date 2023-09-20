@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo do flexbox</title>
+</head>
+
+
+<body>
+    <h1>Demonstração do Flexbox</h1>
+    <h2>Flexbox → Flexble Box - Caixa flexível</h2>
+    <!-- Setinha = ALT + 26 -->
+    <!-- Atalho do comentário = CTRL + ; -->
+
+    <style>
+        .elemento-contido, .nao-contido{
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            border: 1px solid #000;
+        }
+        .nao-contido{
+            background-color: yellow;
+        }
+        .elemento-container{
+            display:flex; 
+            flex-direction:row;
+            flex-wrap: wrap;
+            height: 100px;
+            justify-content: space-around;
+            align-items: center;
+        } 
+    </style>
+
+
+<div class="elemento-container">
+    <div class="elemento-contido">1</div>
+    <div class="elemento-contido">2</div>
+    <div class="elemento-contido">3</div>
+    <div class="elemento-contido">4</div>
+    <div class="elemento-contido">5</div>
+    <div class="elemento-contido">6</div>
+    <div class="elemento-contido">7</div>
+</div>
+<div class="nao-contido">Não contido</div>
+<div class="nao-contido">Não contido</div>
+<div class="nao-contido">Não contido</div>
+    
+</body>
+</html>
